@@ -10,4 +10,4 @@ nsg_name = "nsg-dev-bk"
 
 vm_name             = "vm-dev-bk"
 admin_username      = "azureuser"
-ssh_public_key_path = "~/.ssh/id_rsa.pub"
+ssh_public_key_path = "ssh_public_key.pub"
