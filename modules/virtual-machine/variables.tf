@@ -1,4 +1,4 @@
-variable "vm_name" {
+﻿variable "vm_name" {
   type = string
 }
 
@@ -16,6 +16,11 @@ variable "resource_group_name" {
 
 variable "location" {
   type = string
+}
+
+variable "vm_size" {
+  type    = string
+  default = "Standard_B1s"
 }
 
 variable "ssh_public_key_path" {

@@ -41,5 +41,6 @@ module "virtual_machine" {
   subnet_id           = module.networking.subnet_id
   resource_group_name = module.resource_group.resource_group_name
   location            = var.location
+  vm_size             = var.vm_size
   ssh_public_key_path = var.ssh_public_key_path
 }
